@@ -1,0 +1,21 @@
+description = "Parser for binary zoneinfo files"
+licences = ["Apache-2.0"]
+name = "glzoneinfo"
+version = "0.2.0"
+
+[[links]]
+href = "https://github.com/grodaus/glzoneinfo"
+title = "Website"
+
+[dependencies]
+gleam_stdlib = "~> 0.36"
+
+[dev-dependencies]
+pprint = "~> 1.0"
+showtime = "~> 0.3"
+simplifile = "~> 1.5"
+
+[repository]
+repo = "glzoneinfo"
+type = "github"
+user = "grodaus"
